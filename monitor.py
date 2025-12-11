@@ -4,7 +4,6 @@ import time
 import psutil
 from jobinfo import Job
 
-
 class Monitor:
     def __init__(self):
         self.jobs = []
@@ -43,3 +42,4 @@ class Monitor:
             if j.pid == pid:
                 return j
         return None
+
