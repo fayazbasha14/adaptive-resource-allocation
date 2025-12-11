@@ -20,5 +20,5 @@ class Allocator:
                 job = monitor.find(best["pid"])
                 job.resume()
                 actions.append(f"Resumed PID {job.pid}")
-
+                
         return actions
